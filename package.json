@@ -2,6 +2,7 @@
   "name": "books_dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ihoradev.github.io/Bits_Orchestra_test_task",
   "dependencies": {
     "@types/node": "^16.9.6",
     "@types/react": "^17.0.24",
