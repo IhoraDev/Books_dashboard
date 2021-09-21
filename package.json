@@ -2,7 +2,7 @@
   "name": "books_dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihoradev.github.io/Bits_Orchestra_test_task",
+  "homepage": "https://ihoradev.github.io/Books_dashboard/",
   "dependencies": {
     "@types/node": "^16.9.6",
     "@types/react": "^17.0.24",
@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeloy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
